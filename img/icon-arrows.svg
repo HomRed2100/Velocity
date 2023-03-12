@@ -1,0 +1,17 @@
+<svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1_40)">
+<rect width="94" height="94" fill="#69B9FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40.7334 15.6667C38.8534 15.6667 37.6001 16.92 37.6001 18.8V33.2133L17.8601 13.4733C16.6068 12.22 14.7268 12.22 13.4734 13.4733C12.2201 14.7267 12.2201 16.6067 13.4734 17.86L33.2134 37.6H18.8001C16.9201 37.6 15.6668 38.8533 15.6668 40.7333C15.6668 42.6133 16.9201 43.8667 18.8001 43.8667H40.7334C42.6134 43.8667 43.8668 42.3 43.8668 40.7333V18.8C43.8668 16.92 42.3001 15.6667 40.7334 15.6667ZM80.5268 76.14L60.7868 56.4H75.2001C77.0801 56.4 78.3335 55.1467 78.3335 53.2667C78.3335 51.3867 77.0801 50.1333 75.2001 50.1333H53.2668C51.3868 50.1333 50.1334 51.7 50.1334 53.2667V75.2C50.1334 77.08 51.3868 78.3333 53.2668 78.3333C55.1468 78.3333 56.4001 77.08 56.4001 75.2V60.7867L76.1401 80.5267C77.3934 81.78 79.2735 81.78 80.5268 80.5267C81.7801 79.2733 81.7801 77.3933 80.5268 76.14Z" fill="white"/>
+<rect x="5" y="5" width="84" height="84" stroke="white" stroke-width="10"/>
+</g>
+<defs>
+<filter id="filter0_d_1_40" x="0" y="0" width="94" height="94" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.615686 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_40"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_40" result="shape"/>
+</filter>
+</defs>
+</svg>
