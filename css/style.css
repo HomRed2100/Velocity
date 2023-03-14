@@ -12,54 +12,119 @@ p {
     color: #6A859C;
     line-height: 1.8;
 }
-.header {
-    min-height: 60px;
-}
-.header__menu {
-    min-height: 60px;
 
+/* Header */
+
+.header {
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__container {
+    min-height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo {
     text-transform: uppercase;
-    font-style: normal;
     font-size: 25px;
     color: #69B9FF;
     line-height: 1;
     letter-spacing: 4px;
 }
+
 .header__nav {
+    max-width: 183px;
+    width: 100%;
+}
+
+.header__nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 183px;
-    width: 100%;
+    column-gap: 40px;
     padding: 19px 20px 21px;
 }
-.header__list-menu_blue {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.33;
-    color: #0082F3;
-}
-.header__list-menu {
-    margin-top: 0;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
+
+.header__nav a {
     font-size: 16px;
     line-height: 1.25;
     color: #676770;
+    transition: color 0.2s;
 }
-.about {
-    min-height: 564px;
+
+.header__nav a:hover {
+    color: #0082F3;
+}
+
+/* Main */
+/* Welcome */
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 186px 0 199px;
+    margin-top: 60px;
+    min-height: 594px;
     width: 100%;
-    background-image: url(../img/Bike.jpg);
-    background-image: url(../img/Night-bridge.jpg);
+    background-color: #282936;
+    background-image: url("../img/road.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 105px;
+    min-height: 594px;
+}
+.welcome__heading {
+    font-size: 59px;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     
-    
+}
+.welcome__links {
+
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.link-primary {
+    display: inline-block;
+    padding: 11px 30px 13px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #69B9FF;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.link-primary:hover {
+    background-color: #7cc2ff;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 31px 12px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    transition: 0.2s;
+
+}
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
 }
