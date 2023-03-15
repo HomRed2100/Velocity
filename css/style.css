@@ -17,6 +17,7 @@ p {
 
 .header {
     background-color: #FFFFFF;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     position: fixed;
     width: 100%;
     top: 0;
@@ -70,7 +71,6 @@ p {
     align-items: center;
     color: #FFFFFF;
     text-align: center;
-    padding: 186px 0 199px;
     margin-top: 60px;
     min-height: 594px;
     width: 100%;
@@ -84,6 +84,7 @@ p {
     flex-direction: column;
     row-gap: 105px;
     min-height: 594px;
+    padding: 186px 0 199px;
 }
 .welcome__heading {
     font-size: 59px;
@@ -129,61 +130,104 @@ p {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
+/* About */
+
+.about {
+    min-height: 583px;
+}
+.common-section {
+    padding: 80px 0;
+}
+.title-wrapper {
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.title {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #676770;
+    margin-bottom: 10px;
+}
+.subtitle {
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #8E8E9C;
+}
+.about .cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+.about .card {
+    text-align: center;
+    max-width: 300px;
+    min-height: 291px;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+    padding: 36px 16px 24px;
+    
+}
+.about__icon {
+    max-width: 94px;
+    min-height: 94px;
+    margin-bottom: 19px;
+}
+.about .card h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 14px;
+}
+
 /* Services */
 
 .services {
-    padding: 80px 0;
-    min-height: 583px;
-}
-.container {
-}
-.heading__2 {
-    font-size: 30px;
-    line-height: 1.2;
     text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #676770;
+    min-height: 842px;
 }
-.text {
-    font-size: 17px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #8E8E9C;
+.common-section--dark {
+    background-color: #192024;
 }
-.services__blocks {
-    display: flex;
-    justify-content: center;
+.common-section--dark * {
+    color: #FFFFFF;
+}
+.common-section--dark .subtitle {
+    color: #E8E8E8;
+}
+.service-wrapper {
+    margin-top: -7px;
+    margin-bottom: 60px;
 
 }
-.services__block_1 {
+.services__img {
+    max-width: 430px;
+    min-height: 287px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.services .cards {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+}
+.services .card {
+    max-width: 460px;
+    min-height: 550px;
+    text-align: center;
+    padding: 15px;
     
 }
-.services__icon {
-    max-width: 94px;
-    height: auto;
-}
-.heading__3 {
-    font-size: 17px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 3px;
+.services .card h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
     text-transform: uppercase;
-
-    color: #8E8E9C;
+    color: #676770;
+    margin-bottom: 20px;
 }
-.services__block_2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.services__block_3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.services .link {
+    margin-top: 20px;
 }
