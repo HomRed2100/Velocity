@@ -243,8 +243,6 @@ p {
     margin-bottom: 70px;
 
 }
-.tabs {
-}
 
 .tabs__nav {
     display: flex;
@@ -285,4 +283,39 @@ p {
     margin: 0 auto;
     max-width: 690px;
     margin-top: 0;
+}
+
+/* Footer */
+
+.footer {
+    
+    
+}
+.footer__desc {
+    
+}
+.footer__desc h4 {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 23px;
+}
+.footer-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-container > * {
+    width: 30%;
+}
+.footer__about {
+}
+.footer__links {
+}
+.footer__social {
+}
+.footer__copy {
 }
