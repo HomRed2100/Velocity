@@ -288,8 +288,7 @@ p {
 /* Footer */
 
 .footer__desc {
-    padding: 35px 0;
-    
+    padding: 30px 0 38px;
 }
 
 .footer__desc h4 {
@@ -302,7 +301,6 @@ p {
     
 }
 .footer-container {
-    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
