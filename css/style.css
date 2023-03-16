@@ -1,11 +1,40 @@
+/* Common Styles */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
+
 .container {
     max-width: 940px;
     margin: 0 auto;
+}
+
+.common-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.title-wrapper {
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    margin-bottom: 55px;
+}
+
+.title {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #676770;
+
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #8E8E9C;
 }
 
 p {
@@ -18,6 +47,7 @@ p {
 .header {
     background-color: #FFFFFF;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
     position: fixed;
     width: 100%;
     top: 0;
@@ -26,10 +56,12 @@ p {
 
 .header__container {
     min-height: 60px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     text-transform: uppercase;
     font-size: 25px;
@@ -47,6 +79,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     column-gap: 40px;
     padding: 19px 20px 21px;
 }
@@ -69,47 +102,57 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
     text-align: center;
+
     margin-top: 60px;
     min-height: 594px;
     width: 100%;
+
+    color: #FFFFFF;
     background-color: #282936;
     background-image: url("../img/road.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .welcome__container {
     display: flex;
     flex-direction: column;
-    row-gap: 105px;
+    
     min-height: 594px;
+    row-gap: 105px;
     padding: 186px 0 199px;
 }
+
 .welcome__heading {
-    font-size: 59px;
     text-align: center;
+
+    font-size: 59px;
     line-height: 1;
     letter-spacing: 4px;
     text-transform: uppercase;
     
 }
-.welcome__links {
 
+.welcome__links {
     display: flex;
     justify-content: center;
     column-gap: 20px;
 }
+
 .link-primary {
     display: inline-block;
     padding: 11px 30px 13px;
+
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
+
     background-color: #69B9FF;
     border-radius: 4px;
     transition: 0.2s;
 }
+
 .link-primary:hover {
     background-color: #7cc2ff;
 }
@@ -117,14 +160,17 @@ p {
 .link {
     display: inline-block;
     padding: 10px 31px 12px;
+    
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     transition: 0.2s;
 
 }
+
 .link:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.5);
@@ -135,100 +181,93 @@ p {
 .about {
     min-height: 583px;
 }
-.common-section {
-    padding: 80px 0;
-    text-align: center;
-}
-.title-wrapper {
-    text-align: center;
-    line-height: 1.2;
-    text-transform: uppercase;
-    margin-bottom: 55px;
-}
-.title {
-    font-size: 30px;
-    letter-spacing: 5px;
-    color: #676770;
-    margin-bottom: 10px;
-}
-.subtitle {
-    font-size: 17px;
-    letter-spacing: 3px;
-    color: #8E8E9C;
-}
+
 .about .cards {
     display: flex;
     justify-content: space-between;
-
 }
+
 .about .card {
-    text-align: center;
     max-width: 300px;
     min-height: 291px;
+    
     border: 1px solid #DCEBF7;
     border-radius: 5px;
+    
     padding: 36px 16px 24px;
     
 }
+
 .about__icon {
     max-width: 94px;
     min-height: 94px;
     margin-bottom: 19px;
 }
+
 .about .card h4 {
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 7px;
     text-transform: uppercase;
     color: #676770;
+    
     margin-bottom: 14px;
 }
 
 /* Services */
 
 .services {
-    text-align: center;
     min-height: 842px;
 }
+
 .common-section--dark {
     background-color: #192024;
 }
+
 .common-section--dark * {
     color: #FFFFFF;
 }
+
 .common-section--dark .subtitle {
     color: #E8E8E8;
 }
+
 .service-wrapper {
     margin-top: -7px;
     margin-bottom: 60px;
 
 }
+
 .services__img {
     max-width: 430px;
     min-height: 287px;
     object-fit: contain;
+
     margin-bottom: 20px;
 }
+
 .services .cards {
     display: flex;
     justify-content: space-between;
 }
+
 .services .card {
     max-width: 460px;
     min-height: 550px;
-    text-align: center;
     padding: 15px;
     
 }
+
 .services .card h4 {
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 7px;
     text-transform: uppercase;
     color: #676770;
+
     margin-bottom: 20px;
 }
+
 .services .link {
     margin-top: 16px;
 }
@@ -238,15 +277,16 @@ p {
 .tab-section {
     min-height: 1155px;
 }
+
 .tabs-wrapper {
     margin-top: -7px;
     margin-bottom: 70px;
-
 }
 
 .tabs__nav {
     display: flex;
     justify-content: center;
+
     column-gap: 16px;
     margin-bottom: 52px;
 }
@@ -257,8 +297,10 @@ p {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+
     background-color: #92A0AD;
     border-radius: 4px;
+
     padding: 0 30px;
 }
 
@@ -269,10 +311,12 @@ p {
 .tabs__item img {
     margin-bottom: 16px;
 }
+
 .tabs__item h4 {
     font-size: 31px;
     line-height: 1.16;
     color: #676770;
+
     margin-bottom: 14px;
 }
 
@@ -280,8 +324,9 @@ p {
     font-size: 13px;
     line-height: 1.9;
     color: #6A859C;
-    margin: 0 auto;
+
     max-width: 690px;
+    margin: 0 auto;
     margin-top: 0;
 }
 
@@ -297,23 +342,28 @@ p {
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #676770;
+
     margin-bottom: 23px;
     
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .footer-container > * {
     width: 30%;
 }
+
 .footer__desc a {
     font-size: 13px;
     line-height: 1.5;
     color: #668CAD; 
     
 }
+
 .footer__desc li {
     min-height: 31px;
     position: relative;
@@ -330,6 +380,7 @@ p {
     bottom: 0;
 
 }
+
 .footer__desc li + li {
     margin-top: 6px;
 }
@@ -337,16 +388,20 @@ p {
 .footer__social li::before {
     width: calc(100% - 34px);
 }
+
 .footer__social img {
     width: 20px;
     height: 20px;
     object-fit: contain;
+
     margin-right: 10px;
 }
+
 .footer__copy {
-    background-color: #383838;
     min-height: 101px;
-    text-align: center;
     padding: 40px 0 41px;
+    text-align: center;
+    
     color: #9E9E9E;
+    background-color: #383838;
 }
