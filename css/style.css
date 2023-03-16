@@ -84,6 +84,12 @@ p {
     padding: 19px 20px 21px;
 }
 
+@media (max-width: 350px) {
+    .header__nav ul {
+        column-gap: 15px;
+    }
+}
+
 .header__nav a {
     font-size: 16px;
     line-height: 1.25;
@@ -137,7 +143,8 @@ p {
 .welcome__links {
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .link-primary {
@@ -184,7 +191,9 @@ p {
 
 .about .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .about .card {
@@ -240,15 +249,17 @@ p {
 
 .services__img {
     max-width: 430px;
-    min-height: 287px;
-    object-fit: contain;
+    min-height: auto;
 
     margin-bottom: 20px;
 }
 
 .services .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
 }
 
 .services .card {
@@ -404,4 +415,31 @@ p {
     
     color: #9E9E9E;
     background-color: #383838;
+}
+
+@media (max-width: 960px) {
+    .container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+    .welcome__container {
+        row-gap: 60px;
+    }
+    .welcome__heading {
+        font-size: 40px;
+    }
+    .welcome__links a {
+        display: block;
+        width: 80%;
+    }
+    .about .card h4 {
+        font-size: 16px;
+    }
+    
 }
