@@ -321,6 +321,20 @@ p {
     background-color: #2E80B6;
 }
 
+.tabs__item {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
 .tabs__item img {
     margin-bottom: 16px;
 }
@@ -421,6 +435,8 @@ p {
     background-color: #383838;
 }
 
+/* Media */
+
 @media (max-width: 960px) {
     .container {
         padding-left: 1em;
@@ -445,6 +461,10 @@ p {
     }
     .tabs__nav button {
         padding: 10px 30px;
+    }
+    .footer__desc h4 {
+        margin-bottom: 15px;
+        
     }
     
 }
@@ -479,4 +499,8 @@ p {
         font-size: 24px;
         
     }
+}
+
+.hide {
+    display: none;
 }
